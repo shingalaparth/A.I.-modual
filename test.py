@@ -15,9 +15,9 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
 
-def speak(audio):
-  engine.say(audio)
-  engine.runAndWait()
+def speak(text):
+    os.system(f"espeak -s 10 '{text}'")  # Adjust speed with -s option (optional)
+
 
 
 def wishMe():
