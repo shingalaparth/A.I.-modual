@@ -9,5 +9,4 @@ sudo apt install pulseaudio
 pip install SpeechRecognition
 pip install Microphone
 
-go to setting and try to the go to sound and change input device to microphone
- 
+go to setting and then go to sound and change input device to microphone
